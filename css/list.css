@@ -1,0 +1,169 @@
+#list{
+	width: 1320px;
+	margin: auto;
+}
+#listdiv{
+	width:1320px;
+	float: left;
+	margin: auto;
+}
+#listleft{
+
+	width: 70%;
+	float:left;
+}
+#listleft ul{
+	margin:auto;
+	list-style-type:none;
+    padding-left: 5%;
+}
+#listright{
+	float:left;
+	width:30%;
+}
+
+/*景区图片和介绍*/
+.pic1{
+	width: 40%;
+	float:left;
+	border:1px solid #ccc;
+	margin-left:5% ;
+	margin-top: 20px;
+}
+.pic1 img{
+    width:100%;
+}
+.pic1 a{
+	margin-left: 10px;
+}
+.jingqulink{
+	color:#ff6633;
+}
+.pic1 p{
+	margin-left: 10px;
+}
+.price{
+	color:red;
+	font-weight: bolder;
+}
+#title1{
+	margin-left:10%;
+}
+.jingqu{
+	/*margin-left:10px;*/
+	float: right;
+	margin-right: 5%;
+}
+.jingqu a{
+	color:#ff6633;
+}
+/*周边美食文字*/
+#title1 img{
+	float: left;
+}
+#title1 h1{
+	font-size: 21px;
+	color:#333333;
+	line-height: 55px;
+    font-weight: normal;
+    display: inline;
+    float: left;
+}
+.listgif{
+	margin-left:60%;
+	line-height: 55px;
+	margin-top: 20px;
+}
+.locagif{
+	margin-top: 20px;
+}
+
+/*页码内容*/
+#page{
+	clear:both;
+	height: 90px;
+	padding-top: 40px;
+	padding-left: 25%;
+}
+
+#page ul li{
+	float: left;
+	margin-right: 5px;
+    font-size: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+#page ul li a{
+	padding: 5px 10px;
+	text-decoration:none;
+}
+#page ul li:hover{
+	/*background:url(images/still.gif);*/
+	background-color: #009eff;
+
+}
+#page a:hover{color: #fff;}
+.pagethree{
+	margin-left: 30px;
+}
+
+/* 热门景点排行*/
+#remenjingdian h2{
+	font-size: 16px;
+	color:#333333;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 25px;
+}
+#hot{
+	margin-top: 20px;
+}
+#hot li{
+	line-height: 30px;
+	margin-left: 20%
+}
+.numa{
+	color:red;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.numb{
+	color:#ff6633;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.numc{
+	color:#ff9900;
+	font-weight: bolder;
+	font-size: 16px;
+}
+#hot li a{
+	margin-left: 20px;
+}
+.hotprice{
+	float:right;
+	margin-right: 20%;
+	font-size: 16px;
+	color:#ff6633;
+	font-weight: bolder;
+}
+.hotprice img{
+	margin-bottom: -4px;
+}
+#tu{
+	margin-left: 10%;
+	width: 80%;
+}
+/*本地推荐*/
+#bendituijian h2{
+	font-size: 16px;
+	color:#333333;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 25px;
+}
+#bendituijian img{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+}

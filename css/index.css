@@ -1,0 +1,328 @@
+@charset "utf-8";
+#trip {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.content-top,
+.content-public {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content-top {
+	width: 860px;
+	height: 140px;
+	margin-top: 75px;
+}
+
+.content-public {
+	padding-left: 100px;
+	width: 700px;
+}
+
+.content-public,
+.content-line,
+.content-title,
+.content-detail {
+	float: left;
+}
+
+.content-line {
+	width: 220px;
+	height: 2px;
+	margin: 20px auto;
+	background-color: #333333;
+	overflow: hidden;
+}
+
+.content-title {
+	font-weight: normal;
+	font-size: 32px;
+	margin: auto 60px;
+}
+
+.content-detail {
+	margin: 30px auto;
+}
+
+.content-detail p {
+	font-size: 12px;
+	line-height: 32px;
+	text-align: center;
+}
+
+.sgw-img {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.box {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: -420px;
+	filter: alpha(Opacity=80);
+	/*padding-top: 30px;*/
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
+	-ms-opacity: 0.8;
+	-o-opacity: 0.8;
+	opacity: 0.8;
+	background: #333;
+}
+
+.box-big{
+	width: 700px;
+	margin: 55px auto 0 auto;
+}
+.box-small{
+	width: 340px;
+	margin: 35px auto 0 auto;
+}
+.box h3 {
+	font-size: 48px;
+}
+
+.box h3,
+.box p,
+.box a {
+	color: #FFFFFF;
+}
+
+.box p {
+	margin-top: 20px;
+}
+
+.box a {
+	display: block;
+}
+
+.sgw-img td {
+	position: relative;
+	overflow: hidden;
+}
+
+.sgw-img h2 {
+	/*position: relative;*/
+	/*top: -300px;*/
+	/*overflow: hidden;*/
+	color: #020000;
+	font-size: 48px line-height: 50px;
+}
+
+.trip-place {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+
+/*美食*/
+
+.food {
+	text-align: center;
+}
+
+.container {
+	min-width: 1200px;
+	width: 100%;
+	margin: 140px auto 0 auto;
+	background-color: #eeeeee;
+	height: 292px;
+}
+#wrapper {
+	/*width: 1350px;*/
+	height: 220px;
+	margin: -110px 0 0 0;
+	
+}
+#carousel {
+	padding-top: 23px;
+	width: 1120px;
+	position:relative;
+	margin: 0 auto;
+}
+#carousel ul {
+	margin-top: 50px;
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#carousel li {
+	background-color: white ;
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	display: block;
+	width: 226px;
+	height: 178px;
+	padding: 0;
+	margin: 27px;
+	float: left;
+	position: relative;
+}
+
+#carousel li img {
+	width: 204px;
+	height: 127px;
+	margin-top: 14px;
+}
+
+#carousel li p {
+	
+	margin-top: 8px;
+}			
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+#carousel .prev, #carousel .next {
+	background: transparent url(../img/carousel_control.png) no-repeat 0 0;
+	text-indent: -999px;
+	display: block;
+	overflow: hidden;
+	width: 15px;
+	height: 21px;
+	margin-top: 60px;
+	margin-left: 10px;
+	position: absolute;
+	top: 70px;				
+}
+#carousel .prev {
+	background-position: 0 0;
+	left: -30px;
+}
+#carousel .prev:hover {
+	left: -31px;
+}			
+#carousel .next {
+	background-position: -18px 0;
+	right: -20px;
+}
+#carousel .next:hover {
+	right: -21px;
+}				
+#carousel .pager {
+	text-align: center;
+	margin: 0 auto;
+}
+#carousel .pager a {
+	background: transparent url(../img/carousel_control.png) no-repeat -2px -32px;
+	text-decoration: none;
+	text-indent: -999px;
+	display: inline-block;
+	overflow: hidden;
+	width: 8px;
+	height: 8px;
+	margin: 0 5px 0 0;
+}
+#carousel .pager a.selected {
+	background: transparent url(../img/carousel_control.png) no-repeat -12px -32px;
+	text-decoration: underline;				
+}
+
+
+/*购物*/
+
+.shopping {
+	min-width: 1200px;
+	width: 100%;
+	margin: auto;
+}
+
+.sp-image {
+	width: 1200px;
+	margin: auto;
+}
+
+.sp-imagelist {
+	border: 2px solid #eeeeee;
+	margin: 0 0 0 15px;
+	width: 280px;
+	float: left;
+}
+
+.sp-imagelist-first {
+	margin-left: 0;
+}
+
+.sp-image h2,
+.sp-image h3,
+.sp-image p {
+	text-align: left;
+}
+
+.sp-image-text img {
+	text-align: center;
+	margin-top: 10px;
+	width: 280px;
+}
+
+.sp-image-text h3 {
+	font-size: 16px;
+	color: #0a9ecc;
+	line-height: 33px;
+}
+.firstp {
+	font-size: 12px;
+	color: #7a818a;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.sp-image-text h2 {
+	margin-top: 17px;
+	font-size: 20px;
+	color: #333333;
+}
+
+.secondp {
+	margin-top: 11px;
+	font-size: 14px;
+	color: #444444;
+	line-height: 25px;
+    display: -webkit-box !important;
+    overflow:hidden;
+    
+    text-overflow:ellipsis;
+    word-break:break-all;
+ 
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:5;
+}
+
+.sp-image-text {
+	margin: 10px;
+    
+}
+
+
+/*伙伴定位*/
+
+.location {
+	text-align: center;
+	height: 545px;
+}
+
+.location .text h1 {
+	margin: 0 32px;
+}
+
+.hbdw {
+	width: 100%;
+	min-width: 1355px;
+	background: url("../img/hbdw.jpg") center no-repeat;
+	/*position: relative;*/
+	height: 406px;
+	overflow: hidden;
+}
+
+.hbdw p {
+	line-height: 48px;
+	font-size: 30px;
+	padding-top: 100px;
+}
