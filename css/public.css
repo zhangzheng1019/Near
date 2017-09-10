@@ -45,7 +45,7 @@ h1 {
 img {
 	max-width: 100%;
 	border: 0px;
-	ouline: none;
+	outline: none;
 }
 
 body {
@@ -79,6 +79,7 @@ html {
 #top {
 	width: 100%;
 	background-color: #FFFFFF;
+	margin: 0 auto;
 }
 
 #top-nav {
