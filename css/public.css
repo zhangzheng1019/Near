@@ -45,6 +45,7 @@ h1 {
 img {
 	max-width: 100%;
 	border: 0px;
+	ouline: none;
 }
 
 body {
@@ -78,6 +79,8 @@ html {
 #top {
 	width: 100%;
 	background-color: #FFFFFF;
+	max-width:1200px;
+	margin: 0 auto;
 }
 
 #top-nav {
@@ -250,12 +253,12 @@ html {
 }
 
 #footer {
-	/*min-width: 1356px;*/
+	max-width:1200px;
+	margin: 0 auto;
 	width: 100%;
 	height: 440px;
 	background-color: #333;
 	float: left;
-	/*overflow: hidden;*/
 }
 
 #footer a,
